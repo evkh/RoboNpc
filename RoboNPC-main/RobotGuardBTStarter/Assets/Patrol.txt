@@ -1,0 +1,11 @@
+tree("Root")
+	sequence
+	//escolhe uma destination e se move assim repetidamente
+		PickDestination(-100, -100)
+		MoveToDestination
+		PickDestination(-100, 100)
+		MoveToDestination
+		PickDestination(100, 100)
+		MoveToDestination
+		PickDestination(100, -100)
+		MoveToDestination

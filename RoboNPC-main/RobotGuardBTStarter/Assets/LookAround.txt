@@ -1,0 +1,13 @@
+tree("Root")
+	sequence
+		//random
+		random(5,1,1,1)
+		//vira para as direções
+			Turn(90.0)
+			Turn(-90.0)
+			Turn(145.0)
+			Turn(-27.0)	
+		//olha para a target
+		LookAtTarget
+		//espera um tempo alaeatorio para repetir os comandos
+		WaitRandom(1.0,5.0)
